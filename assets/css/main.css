@@ -136,6 +136,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #787878;
+		/* color: white; */
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2686,6 +2687,7 @@ input, select, textarea {
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
+		overflow: scroll;
 	}
 
 		#main > section {
@@ -2698,6 +2700,15 @@ input, select, textarea {
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
+			}
+		
+			.educationHead {
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+
+			.educationTitle {
+				/* gap: 10px; */
 			}
 
 /* Poptrox */
@@ -3030,6 +3041,8 @@ input, select, textarea {
 				max-width: none;
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
+				background-color: rgb(26, 26, 26);
+				color: white;
 			}
 
 	}
