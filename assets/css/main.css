@@ -2709,8 +2709,21 @@ input, select, textarea {
 			}
 
 			.educationTitle {
-				/* gap: 10px; */
+				/* display: flex; */
 			}
+
+			.appAca, .binghamton {
+				display: flex;
+			}
+
+			.appAca img, .binghamton img {
+				margin-right: 15px;
+			}
+		
+			/* .appAca p, .binghamton p {
+				display: flex;
+				align-items: center;
+			} */
 
 /* Poptrox */
 
