@@ -301,6 +301,11 @@ input, select, textarea {
 		align-items: stretch;
 	}
 
+	.appInfo {
+		font-size: medium;
+		/* text-decoration: none; */
+	}
+
 		.row > * {
 			box-sizing: border-box;
 		}
