@@ -795,6 +795,7 @@ input, select, textarea {
 
 				.row.gtr-uniform > * > :last-child {
 					margin-bottom: 0;
+					color: black;
 				}
 
 				.row.aln-left {
@@ -2564,7 +2565,7 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			font-size: 1.3em;
 			margin: 0 0 0.5em 0;
 		}
 
